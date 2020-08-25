@@ -6,20 +6,19 @@
 - Моделирование процесса управления
 
 ## DH-параметры манипулятора
-| Узел | a, cm | $\alpha$, ° | d, cm | \theta |
+| Узел | a, cm | α, ° | d, cm | θ |
 |:----:|:------:|:------------:|:------:|:-------:|
-| 1 | 0 | 90 | 14 | \theta1* |
-| 2 | 12 | 0 | 0 | \theta2* |
-|3| 12 | 0 | 0 | \theta3* |
+| 1 | 0 | 90 | 14 | θ1* |
+| 2 | 12 | 0 | 0 | θ2* |
+|3| 12 | 0 | 0 | θ3* |
 
 ## Прямая задача кинематики
 Матрица однородного преобразования:
 
-<img align="left" src="https://latex.codecogs.com/gif.latex?T_i=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}" /> 
-<br/>
+<img align="left" src="https://latex.codecogs.com/gif.latex?T_i=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}" />  
+
 Подставив DH пареметры манипулятора, получим три матрицы однородного преобразования. Итоговую матрицу получаем последовательным перемножением:
-<img align="left" src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\T_2\cdot\T_3=" /> 
-<br/>
+<img align="left" src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\T_2\cdot\T_3=" />  
 
 ## Обратная задача кинематики
 
