@@ -13,12 +13,13 @@
 |3| 12 | 0 | 0 | \theta3* |
 
 ## Прямая задача кинематики
-Матрицы однородного преобразования:
+Матрица однородного преобразования:
 
-<img align="left" src="https://latex.codecogs.com/gif.latex?T=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}" /> 
-
-Итоговую матрицу получаем последовательным перемножением:
-
+<img align="left" src="https://latex.codecogs.com/gif.latex?T_i=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}" /> 
+<br/>
+Подставив DH пареметры манипулятора, получим три матрицы однородного преобразования. Итоговую матрицу получаем последовательным перемножением:
+<img align="left" src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\T_2\cdot\T_3=" /> 
+<br/>
 
 ## Обратная задача кинематики
 
