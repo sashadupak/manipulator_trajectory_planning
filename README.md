@@ -14,8 +14,8 @@
 
 ## Прямая задача кинематики
 Матрицы однородного преобразования:
+<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;T=\begin{bmatrix} 1 & 2 & 3\\ a & b & c \end{bmatrix}" title="\Large T=\begin{bmatrix} 1 & 2 & 3\\ a & b & c \end{bmatrix}" />
 
 ## Обратная задача кинематики
 
