@@ -18,7 +18,7 @@
 <br/><br/>
 
 Итоговую матрицу получаем последовательным перемножением:
-<img align="left" src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\;T_2\cdot\;T_3=\begin{bmatrix}\;&\;&\;&x\\\;&R&\;&y\\\;&\;&\;&z\\0&0&0&1\end{bmatrix}" />
+<img align="left" src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\;T_2\cdot\;T_3=\begin{bmatrix}\;&\;&\;&x\\\;&R&\;&y\\\;&\;&\;&z\\0&0&0&1\end{bmatrix}" />   
 
 
 ## Обратная задача кинематики
