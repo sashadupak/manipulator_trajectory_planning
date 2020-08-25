@@ -22,9 +22,10 @@
 <img src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\;T_2\cdot\;T_3=\begin{bmatrix}r_1_1&r_1_2&r_1_3&x\\r_2_1&r_2_2&r_2_3&y\\r_3_1&r_3_2&r_3_3&z\\0&0&0&1\end{bmatrix}">  
 Определение углов Эйлера:  
 
-- Если <img src="https://latex.codecogs.com/gif.latex?r_3_3!=+-1">:
-<img src="https://latex.codecogs.com/gif.latex?\theta=atan2(+-\sqrt(1-r_3_3^2), r_3_3)">
-- Если <img src="https://latex.codecogs.com/gif.latex?r_3_3=1">:
+Если <img src="https://latex.codecogs.com/gif.latex?r_3_3\neq\pm\1">:
+<img src="https://latex.codecogs.com/gif.latex?\theta=atan2(\pm\sqrt(1-r_3_3^2), r_3_3)">
+<img src="https://latex.codecogs.com/gif.latex?\phi=atan2(\pm\;r_2_3, \pm\;r_1_3)">
+<img src="https://latex.codecogs.com/gif.latex?\psi=atan2(\pm\;r_3_2, \mp\;r_3_1)">
 
 ## Обратная задача кинематики
 
