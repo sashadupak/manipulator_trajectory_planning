@@ -24,11 +24,11 @@
 
 Если <img src="https://latex.codecogs.com/gif.latex?r_3_3\neq\pm\1">:  
 
-<img src="https://latex.codecogs.com/gif.latex?\theta=atan2(\pm\sqrt(1-r_3_3^2), r_3_3)">  
+<img src="https://latex.codecogs.com/gif.latex?\theta=atan2(\pm\sqrt(1-r_3_3^2),r_3_3)">  
 
-<img src="https://latex.codecogs.com/gif.latex?\phi=atan2(\pm\;r_2_3, \pm\;r_1_3)">  
+<img src="https://latex.codecogs.com/gif.latex?\phi=atan2(\pm\;r_2_3,\pm\;r_1_3)">  
 
-<img src="https://latex.codecogs.com/gif.latex?\psi=atan2(\pm\;r_3_2, \mp\;r_3_1)">
+<img src="https://latex.codecogs.com/gif.latex?\psi=atan2(\pm\;r_3_2,\mp\;r_3_1)">
 
 ## Обратная задача кинематики
 
