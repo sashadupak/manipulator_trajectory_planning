@@ -13,7 +13,8 @@
 |3| 12 | 0 | 0 | θ3* |
 
 ## Прямая задача кинематики
-Подставив DH пареметры манипулятора, получим три матрицы однородного преобразования:
+Подставив DH пареметры манипулятора, получим три матрицы однородного преобразования:  
+
 <img align="left" src="https://latex.codecogs.com/gif.latex?T_i=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}">
 ---
 
