@@ -53,11 +53,12 @@
 
 ![img1](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/comb1.png)  
 
-*График перехдного процесса регулятора угла поворота первого узла манипулятора*  
+*График перехдного процесса регулятора угла поворота первого узла манипулятора.*  
 
 ![img2](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/vel1.png)    
 
-*График перехдного процесса регулятора угловой скорости первого узла манипулятора*
+*График перехдного процесса регулятора угловой скорости первого узла манипулятора.*  
+
 Далее в качестве эксперимента было реализовано движение манипулятора через точки задающие число пи. Выглядит это следующим образом:  
 
-![img3](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/Screenshot%20from%202019-06-03%2020-26-33.png)
+![img3](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/PI.png)
