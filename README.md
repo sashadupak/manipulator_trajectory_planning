@@ -39,7 +39,7 @@
 где R – радиус окружности.
 В более общем случае, гармоническая траектория может быть определена как  
 
-<img src="https://latex.codecogs.com/gif.latex?q(t)=\frac{q_1-q_0}{2}(1-cos(\frac{t-t_0}{t_p}))+q_0">,  
+<img src="https://latex.codecogs.com/gif.latex?q(t)=\frac{q_1-q_0}{2}(1-cos(\frac{t-t_0}{t_p}))+q_0">  
 
 где q0, q1 – начальное и конечное значение угла поворота вала двигателя, t0, t1 - начальное и
 конечное значение времени, t – текущее время, tp – время переходного процесса.
@@ -49,4 +49,12 @@
 <img src="https://latex.codecogs.com/gif.latex?\dot{q}(t)=\frac{\pi(q_1-q_0)}{2t_p}sin(\frac{\pi(t-t_0)}{t_p})">  
 
 ## Результаты
+Движение манипулятора через заданные точки получилось очень плавным и достаточно точным, что видно из графиков. Приводить все однотипные не имеет смысла (располагаются в /photos), но к примеру для первого звена траектория выглядит следующим образом:  
 
+![img1](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/comb1.png)
+*График перехдного процесса регулятора угла поворота первого узла манипулятора*
+![img2](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/vel1.png)  
+*График перехдного процесса регулятора угловой скорости первого узла манипулятора*
+Далее в качестве эксперимента было реализовано движение манипулятора через точки задающие число пи. Выглядит это следующим образом:  
+
+![img3](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/Screenshot%20from%202019-06-03%2020-26-33.png)
