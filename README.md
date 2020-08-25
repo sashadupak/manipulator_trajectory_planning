@@ -33,15 +33,15 @@
 ## Обратная задача кинематики
 Определение обобщенных координат:  
 
-<img src="https://latex.codecogs.com/gif.latex?\theta_1=atan2(y, x)">  
+<img src="https://latex.codecogs.com/gif.latex?\theta_1=atan2(y,x)">  
 
 <img src="https://latex.codecogs.com/gif.latex?l_horizontal=\sqrt{x^2+y^2}">  
 
 <img src="https://latex.codecogs.com/gif.latex?l_diagonal=\sqrt{x^2+y^2+(z-d_1)^2}">  
 
-<img src="https://latex.codecogs.com/gif.latex?\theta_2=atan(\frac{l_h}{z-d_1})-acos(\frac{a_2^2+l_d^2-a_3^2}{2a_2\cdot{l_d}})">  
+<img src="https://latex.codecogs.com/gif.latex?\theta_2=atan(\frac{l_h}{z-d_1})-acos(\frac{a_2^2+l_d^2-a_3^2}{2\cdot{a_2}\cdot{l_d}})">  
 
-<img src="https://latex.codecogs.com/gif.latex?\theta_3=\pi-acos(\frac{a_2^2+a_3^2-l_d^2}{2a_2\cdot{a_3}})">  
+<img src="https://latex.codecogs.com/gif.latex?\theta_3=\pi-acos(\frac{a_2^2+a_3^2-l_d^2}{2\cdot{a_2}\cdot{a_3}})">  
 
 
 ## Планирование траектории
