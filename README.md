@@ -35,9 +35,9 @@
 
 <img src="https://latex.codecogs.com/gif.latex?\theta_1=atan2(y,x)">  
 
-<img src="https://latex.codecogs.com/gif.latex?l_horizontal=\sqrt{x^2+y^2}">  
+<img src="https://latex.codecogs.com/gif.latex?l_h_o_r_i_z_o_n_t_a_l=\sqrt{x^2+y^2}">  
 
-<img src="https://latex.codecogs.com/gif.latex?l_diagonal=\sqrt{x^2+y^2+(z-d_1)^2}">  
+<img src="https://latex.codecogs.com/gif.latex?l_d_i_a_g_o_n_a_l=\sqrt{x^2+y^2+(z-d_1)^2}">  
 
 <img src="https://latex.codecogs.com/gif.latex?\theta_2=atan(\frac{l_h}{z-d_1})-acos(\frac{a_2^2+l_d^2-a_3^2}{2\cdot{a_2}\cdot{l_d}})">  
 
