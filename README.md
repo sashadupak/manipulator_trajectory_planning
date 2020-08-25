@@ -24,13 +24,25 @@
 
 Если <img src="https://latex.codecogs.com/gif.latex?r_3_3\neq\pm\1">:  
 
-<img src="https://latex.codecogs.com/gif.latex?\theta=atan2(\pm\sqrt{(1-r_3_3^2)},r_3_3)">  
+<img src="https://latex.codecogs.com/gif.latex?\theta=atan2(\pm\sqrt{1-r_3_3^2},r_3_3)">  
 
 <img src="https://latex.codecogs.com/gif.latex?\phi=atan2(\pm\;r_2_3,\pm\;r_1_3)">  
 
 <img src="https://latex.codecogs.com/gif.latex?\psi=atan2(\pm\;r_3_2,\mp\;r_3_1)">
 
 ## Обратная задача кинематики
+Определение обобщенных координат:  
+
+<img src="https://latex.codecogs.com/gif.latex?\theta_1=atan2(y, x)">  
+
+<img src="https://latex.codecogs.com/gif.latex?l_horizontal=\sqrt{x^2+y^2}">  
+
+<img src="https://latex.codecogs.com/gif.latex?l_diagonal=\sqrt{x^2+y^2+(z-d_1)^2}">  
+
+<img src="https://latex.codecogs.com/gif.latex?\theta_2=atan(\frac{l_h}{z-d_1})-acos(\frac{a_2^2+l_d^2-a_3^2}{2a_2\cdot{l_d}})">  
+
+<img src="https://latex.codecogs.com/gif.latex?\theta_3=\pi-acos(\frac{a_2^2+a_3^2-l_d^2}{2a_2\cdot{a_3}})">  
+
 
 ## Планирование траектории
 Гармоническая траектория основанная на тригонометрических функциях имеет
