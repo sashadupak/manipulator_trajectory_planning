@@ -15,7 +15,7 @@
 ## Прямая задача кинематики
 Подставив DH пареметры манипулятора, получим три матрицы однородного преобразования:  
 
-<img align="left" src="https://latex.codecogs.com/gif.latex?T_i=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}">  
+<img src="https://latex.codecogs.com/gif.latex?T_i=\begin{bmatrix}cos(\theta)&-sin(\theta)cos(\alpha)&sin(\theta)sin(\alpha)&a\cdot\cos(\theta)\\sin(\theta)&cos(\theta)cos(\alpha)&-cos(\theta)sin(\alpha)&a\cdot\sin(\alpha)\\0&sin(\alpha)&cos(\alpha)&d\\0&0&0&1\end{bmatrix}">  
 
 Итоговую матрицу получаем последовательным перемножением:
 <img align="left" src="https://latex.codecogs.com/gif.latex?T=T_1\cdot\;T_2\cdot\;T_3=\begin{bmatrix}r_1_1&r_1_2&r_1_3&x\\r_2_1&r_2_2&r_2_3&y\\r_3_1&r_3_2&r_3_3&z\\0&0&0&1\end{bmatrix}">   
