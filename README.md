@@ -51,9 +51,12 @@
 ## Результаты
 Движение манипулятора через заданные точки получилось очень плавным и достаточно точным, что видно из графиков. Приводить все однотипные не имеет смысла (располагаются в /photos), но к примеру для первого звена траектория выглядит следующим образом:  
 
-![img1](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/comb1.png)
-*График перехдного процесса регулятора угла поворота первого узла манипулятора*
-![img2](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/vel1.png)  
+![img1](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/comb1.png)  
+
+*График перехдного процесса регулятора угла поворота первого узла манипулятора*  
+
+![img2](https://github.com/sdupak/manipulator_trajectory_planning/blob/master/photos/vel1.png)    
+
 *График перехдного процесса регулятора угловой скорости первого узла манипулятора*
 Далее в качестве эксперимента было реализовано движение манипулятора через точки задающие число пи. Выглядит это следующим образом:  
 
